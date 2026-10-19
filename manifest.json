@@ -1,0 +1,19 @@
+{
+  "name": "Tater Brave Local",
+  "repo_name": "tater-brave-local",
+  "description": "Brave LLM Context web search integration for Tater, geo-targeted and LLM-query-rewritten.",
+  "integrations": [
+    {
+      "id": "brave_local",
+      "name": "Brave Local",
+      "description": "Adds Brave LLM Context Search, geo-targeted to your location (Home Assistant location pre-fills when available), with LLM-rewritten queries and optional spoken-name corrections, as a web search provider for Tater.",
+      "version": "1.0.0",
+      "entry": "integrations/brave_local.py",
+      "sha256": "9f3dac784ab1bf0c04ff5f2174d3891ce020c2141f39b0db52ff2138f52c7f95",
+      "required": false,
+      "capabilities": ["web_search"],
+      "redis_hashes": ["brave_local_settings", "brave_local_ha_location_cache", "brave_search_settings"],
+      "redis_strings": ["tater:web_search:brave_api_key"]
+    }
+  ]
+}
