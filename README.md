@@ -7,7 +7,7 @@ A custom web search integration for [Tater](https://github.com/TaterTotterson/Ta
 
 Asked via Tater's chat a spoken question about when a nearby store closes, the stock Brave Search
 integration searched the raw planner query verbatim on Brave's standard web endpoint with no location,
-and returned an unrelated result (a school's schedule) instead of the store's hours.
+and returned an unrelated result.
 
 The same question through Home Assistant's *Tools for Assist* (`llm_intents` with the "Brave LLM Context"
 provider) answered correctly — because that pipeline (1) uses Brave's LLM Context grounding endpoint,
