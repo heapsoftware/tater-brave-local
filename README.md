@@ -92,7 +92,7 @@ restart is the sure thing.
 
 1. Put this repository somewhere persistent (or host it on GitHub).
 2. In Tater's integration shop settings, add the raw manifest URL as an additional manifest source, e.g.
-   `https://raw.githubusercontent.com/<you>/tater-brave-local/main/manifest.json`.
+   `https://raw.githubusercontent.com/heapsoftware/tater-brave-local/main/manifest.json`.
 3. Install **Brave Local** from the shop like any other integration.
 
 Tater also auto-detects a `manifest.json` in a `Tater_Integrations` folder next to the Tater app directory,
